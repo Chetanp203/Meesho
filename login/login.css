@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: medium;
+    font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+    font-weight: 500;
+}
+
+#headercontainer{
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid rgb(160, 157, 157);
+    /* position: fixed; */
+    background-color: white;
+    /* z-index: 7; */
+    
+}
+#head1{
+    width:100% ;
+    height: 70px;
+    border-bottom: 1px solid rgb(160, 157, 157);
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+}
+#head1>div:nth-child(1)>img{
+    margin-left: 10px;
+
+}
+#head1>div:nth-child(2)>input{
+    width: 400px;
+    height: 45px;
+    margin-top: 10px;
+    padding-left: 40px;
+    font-family: "Mier book";
+}
+#searchbar{
+    margin-left: 0px;
+    margin-right: 150px;
+}
+#searchbar>i{
+    position: absolute;
+    left: 255px;
+    top: 30px;
+}
+#searchbar>input{
+    border-radius: 5px;
+    border: 1px solid rgb(160, 157, 157) ;
+    font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+}
+#head2{
+    width:100% ;
+    height:50px ;
+}
+.flex{
+    display: flex;
+}
+#nav{
+    /* width: 30%; */
+    display: flex;
+    justify-content: space-around;
+    /* margin-left: 50px; */
+    margin-right: 20px;
+}
+#nav>div{
+    width: 150px;
+    margin-top: 10px;
+    height: 35px;
+    padding-top: 10px;
+   padding-left: 5px;
+   
+}
+#nav>div:nth-child(2){
+    border-left: 1px solid rgb(160, 157, 157);
+    border-right: 1px solid rgb(160, 157, 157);
+}
+#nav>div:nth-child(3){
+   justify-content: space-around;
+}
+/* body */
+#body{
+    width: 100%;
+    height: 1000px;
+    background-color:rgb(253,235,239) ;
+    /* z-index: -1; */
+}
+#login{
+    width: 35%;
+    height: 900px;
+    /* border: 1px solid red; */
+    margin: auto;
+    /* margin-top: 20px; */
+    /* z-index: -1; */
+    border-radius: 10px;
+    background-color: white;
+    top: 40px;
+    position: relative;
+}
+#login>img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+#login>p{
+    padding: 40px 0px 30px 40px;
+    font-size: larger;
+    font-weight: bolder;
+    /* font-family: "Mier bold"; */ 
+}
+/* # */
+
+.small{
+    font-size: small;
+}
+.medium{
+    font-size: medium;
+}
+#logindetails>div>div{
+    width: 90px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+.log-d{
+    padding-bottom: 10px;
+}
+#logindetails>input{
+    width: 300px;
+    height: 30px;
+    margin-left: 70px;
+    border: 1px solidrgb(160, 157, 157) ;
+    margin-bottom: 10px;
+    margin-left: 70px;
+}
+
+#con>button{
+    width: 350px;
+    height: 45px;
+    background-color: rgb(159,32,137);
+    color: white;
+    border:none;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 60px;
+
+}
+#end{
+    margin-top: 250px;
+}
+#end>p{
+    padding-left: 120px;
+    font-size: small;
+
+}
+#end>span{
+    color: rgb(159,32,137);
+    font-size: small;
+}
+.lefty{
+    padding-left: 70px;
+}
+
+

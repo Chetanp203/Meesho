@@ -1,0 +1,45 @@
+.flex{
+    display: flex;
+}
+.bottom{
+    margin-bottom: 10px;
+}
+.left{
+    padding-left: 10px;
+}
+.star{
+    width: 45px;
+    height: 22px;
+    background-color: hwb(150 0% 0%);
+    color: white;
+    border-radius: 25%;
+    display: flex;
+}
+.col{
+    color: black;
+}
+.contain{
+    border: 1px solid rgb(194, 191, 191);
+    width: 90%;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.cat{
+    position: relative;
+}
+.pxy{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.mxy{
+    /* margin-left: 10px; */
+    margin-top: 10px;
+}
+.rel{
+    width: 89%;
+    height: 30px;
+    border: 1px solid rgb(194, 191, 191);
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
